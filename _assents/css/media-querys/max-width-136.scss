@@ -1,0 +1,101 @@
+// Smatphone 320 Iphone 5
+@media screen and (max-width: 136px) {
+
+// HEADER
+.menu-nav .content-flex-nav {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+
+.header-action .contet-logo-home img {
+    padding-top: 160px;
+}
+
+
+
+.header-action .content-flex-home {
+  margin-top: 50px;
+}
+
+.header-action .content-flex-home .col-2flex .text-home h1 {
+  margin-top: 40px;
+}
+
+.menu-nav {
+  display: none;
+}
+.header-action {
+    min-height: 200px;
+}
+
+// SERVICES
+.service .content-full-flex-service-title {
+    display: none;
+}
+
+.service .content-full-flex-service-content {
+    flex-direction: column;
+}
+
+.service .content-full-flex-service-content .content-location {
+    width: 100%;
+
+}
+
+.service .content-full-flex-service-content .content-destination {
+    width: 100%;
+
+}
+
+.service .content-full-flex-service-content .content-location h2 {
+    font-size: 10px;
+}
+
+.service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 40%;
+    height: 20%;
+    margin-top: 80px;
+}
+
+.service .content-full-flex-service-content .content-destination .levamos img {
+    width: 40%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+// TRANSPORT
+.transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 20px;
+}
+
+.transport .content-full-flex-transport .text-title-transport h2 {
+    font-size: 16px;
+}
+
+.transport .content-full-flex-transport-content {
+
+    min-height: 300px;
+}
+
+
+footer .content-full-flex-footer .left-footer h3 {
+  font-size: 8px;
+  margin-top: 20px;
+}
+
+.contact .content-full-flex-contact .text-contact-msm-flex h3 {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.contact .content-full-flex-contact .contact-flex ul li h2 {
+  font-size: 6px;
+}
+
+.contact .content-full-flex-contact .contact-flex ul li i {
+    font-size: 6px;
+}
+
+
+}

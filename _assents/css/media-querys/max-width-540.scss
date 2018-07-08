@@ -1,0 +1,39 @@
+// Smartphne 568
+@media screen and (max-width: 540px){
+
+  // HEADER
+  .header-action {
+    min-height: 1000px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 250px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-content .content-location .text-aviao h2 {
+    font-size: 18px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 40px;
+  }
+
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 45%;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  // RESERVE
+  .reserve .content-full-flex-reserve #form-main {
+    width: 80%;
+  }
+
+  // CONTACT
+  .contact .content-full-flex-contact .contact-flex {
+    padding-bottom: 70px;
+  }
+
+}

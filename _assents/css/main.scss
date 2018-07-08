@@ -1,0 +1,128 @@
+// CHARSET
+@charset "UTF-8";
+
+// IMPORTS TOOLS ////////////////////////
+@import "tools/reset";
+@import "tools/fontawesome/font-awesome";
+@import "tools/animate";
+//@import "tools/datepicker";
+//@import "tools/wickedpicker";
+//@import "tools/carousel";
+
+// IMPORT CSS PAGE //////////////////////
+@import "css-page/colors";
+@import "css-page/fonts";
+@import "css-page/body";
+@import "css-page/section-header";
+@import "css-page/section-contact";
+@import "css-page/footer";
+
+// IMPORT MEDIA QUERYS ////////////////////
+
+// 01 - Imac 27      	size 2560 x 1600
+@import "media-querys/max-width-2560";
+
+// 02 - SurfaceBook		size 1500 x 1000
+@import "media-querys/max-width-1500";
+
+// 03 - Macbook 15		size 1440 x 900
+@import "media-querys/max-width-1440";
+
+// 04 - Surface Pro		size 1368 x 912
+@import "media-querys/max-width-1368";
+
+// 05 - Ipad Pro			size 1366 x 1024
+@import "media-querys/max-width-1366";
+
+// 06 - Macbook 12		size 1280 x 800
+@import "media-querys/max-width-1280";
+
+// 07 - Nexus 9			size 1024 x 768
+@import "media-querys/max-width-1024";
+
+// 08 - Other			size 979 x 600
+@import "media-querys/max-width-979";
+
+// 09 - Sony Xperian Z3		size 960 x 600
+@import "media-querys/max-width-960";
+
+// 10 - Iphone X Land		size 812 x 375
+@import "media-querys/max-width-812";
+
+// 11 - Dell Venue		size 800 x 1200
+@import "media-querys/max-width-800";
+
+// 12 - Ipad 			size 768 x 1024
+@import "media-querys/max-width-768";
+
+// 13 - Maze Alpha Land		size 753 x 424
+@import "media-querys/max-width-753";
+
+// 14 - Other 			size 750 x 600
+@import "media-querys/max-width-750";
+
+// 15 - Iphone 8 Plus Land	size 736 x 414
+@import "media-querys/max-width-736";
+
+// 16 - Nexus 5X Land		size 732 x 412
+@import "media-querys/max-width-732";
+
+// 17 - Iphone 8			size 667 x 375
+@import "media-querys/max-width-667";
+
+// 18 - HTC One Land		size 640 x 360
+@import "media-querys/max-width-640";
+
+// 19 - Nexus 7			size 600 x 960
+@import "media-querys/max-width-600";
+
+// 20 - Iphone 5 Land		size 568 x 320
+@import "media-querys/max-width-568";
+
+// 21 - Sony Xperian C4		size 540 x 960
+@import "media-querys/max-width-540";
+
+// 22 - Nokia Lumia Land		size 533 x 320
+@import "media-querys/max-width-533";
+
+// 23 - Other 			size 500 x 640
+@import "media-querys/max-width-500";
+
+// 24 - LG G3			size 480 X 853
+@import "media-querys/max-width-480";
+
+// 25 - Maze Alpha		size 424 x 753
+@import "media-querys/max-width-424";
+
+// 26 - Iphone 6 Plus		size 414 x 736
+@import "media-querys/max-width-414";
+
+// 27 - Nexus 5x			size 412 x 732
+@import "media-querys/max-width-412";
+
+// 28 - Google Pixel XL		size 411 x 731
+@import "media-querys/max-width-411";
+
+// 29 - Nexus 4			size 384 x 640
+@import "media-querys/max-width-384";
+
+// 30 - Iphone 6			size 375 x 667
+@import "media-querys/max-width-375";
+
+// 31 - HTC One			size 360 x 640
+@import "media-querys/max-width-360";
+
+// 32 - IPhone 5			size 320 x 568
+@import "media-querys/max-width-320";
+
+// 33 - Moto 360 			size 241 x 244
+@import "media-querys/max-width-241";
+
+// 34 - Sansung Gear		size 213 x 213
+@import "media-querys/max-width-213";
+
+// 35 - Apple Watch 42		size 152 x 195
+@import "media-querys/max-width-152";
+
+// 36 - Apple Watch 32		size 136 x 170
+@import "media-querys/max-width-136";

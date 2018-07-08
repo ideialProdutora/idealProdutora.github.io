@@ -1,0 +1,157 @@
+// TABLETS
+@media screen and (max-width: 800px) {
+
+  // HEADER
+  // Menu Fixo
+  .menu-nav {
+
+    // Content Flex Menu
+    .content-flex-nav{
+
+      // Select
+      .select-header select {
+      padding-left: 20px;
+      padding-right: 25px;
+      margin-right: 60px;
+      }
+    }
+  }
+
+  .header-action {
+    min-height: 1300px;
+  }
+
+  .header-action .content-move {
+    margin-top: 350px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 350px;
+  }
+
+  .header-action .content-flex-home .col-2flex {
+
+    min-height: 120px;
+
+  }
+
+  // Home
+  .header-action {
+
+    // Content Flex Home
+    .content-flex-home {
+        flex-direction: column;
+        margin-top: 300px;
+
+        }
+    }
+
+    .header-action .content-flex-home .text-home .icon-move {
+      padding-bottom: 20px;
+    }
+
+    // SERVISE
+
+    .service .content-full-flex-service-content {
+      min-height: 500px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos {
+      flex-direction: column-reverse;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos img {
+      width: 30%;
+      height: 32%;
+      margin-top: 80px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos h2 {
+      padding-top: 20px;
+      margin-left: 0px;
+
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos {
+      flex-direction: column;
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos img {
+      width: 30%;
+      height: 25%;
+      margin-top: 30px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos h2 {
+      padding-top: 20px;
+      margin-right: 0px;
+
+    }
+
+    .service .content-full-flex-service-content .content-location .img-aviao img {
+      margin-top: 100px;
+    }
+
+    .service .content-full-flex-service-content .content-location .img-aviao img {
+      width: 60%;
+    }
+
+    .transport .content-full-flex-transport-content .picture-transport .car img {
+      height: 50%;
+      width: 75%;
+      margin-top: 70px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos {
+    padding-bottom: 60px;
+    }
+
+    // TRANSPORT
+    .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+      margin-left: 100px;
+    }
+
+    .transport .content-full-flex-transport-content .content-list-transport .list-transport {
+      margin-top: 20px;
+    }
+
+
+
+    .transport .content-full-flex-transport .text-title-transport h2 {
+    font-size: 30px;
+    }
+
+    .transport .content-full-flex-transport .title-empty-transport h2 {
+    font-size: 30px;
+    }
+    .transport .content-full-flex-transport-content .picture-transport {
+    padding-right: 0px;
+    }
+
+    .transport .content-full-flex-transport-content .picture-transport .car {
+    height: 100%;
+    }
+
+
+
+    // RESERVE
+    .reserve .content-full-flex-reserve .title-flex-reserve h2 {
+    font-size: 30px;
+    }
+
+    .reserve .content-full-flex-reserve #form-main {
+      width: 60%;
+    }
+
+    // DEPOIMENT
+    .depoiment .content-full-flex-depoiment .content-title-depoiment h2 {
+    font-size: 30px;
+    }
+
+    // CONTACT
+    .contact .content-full-flex-contact .title-flex-contact h2 {
+    font-size: 30px;
+    }
+
+
+}

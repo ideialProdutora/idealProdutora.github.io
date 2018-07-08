@@ -1,0 +1,23 @@
+// Smartphne 568
+@media screen and (max-width: 568px){
+
+  // HEADER
+
+  .header-action {
+    min-height: 600px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 60px;
+  }
+
+  // SERVICE
+  .service .content-full-flex-service-content .content-destination .levamos {
+    padding-bottom: 30px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,27 @@
+// TABLETS
+@media screen and (max-width: 979px) {
+
+  // Home
+  .header-action {
+
+    // Content Flex Home
+    .content-flex-home {
+
+        margin-top: 95px;
+
+        }
+    }
+    // CONTACT
+    .contact {
+      .content-full-flex-contact{
+        .contact-flex {
+          display: flex;
+          margin-top: 100px;
+          justify-content: center;
+          width: 70%;
+          min-height: inherit;
+          padding-bottom: 70px;
+        }
+      }
+    }
+}

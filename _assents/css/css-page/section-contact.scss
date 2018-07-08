@@ -1,0 +1,125 @@
+// CONTACT
+.contact {
+  width: 100%;
+  display:flex;
+
+  // Content full flex contact
+  .content-full-flex-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $main-color-white;
+
+
+
+    // Content Title contact
+    .title-flex-contact {
+      min-height: 100px;
+      width: 100%;
+      background-color: #ffffff;
+      //border-bottom: 4px solid #cccccc;
+      // title
+      h2 {
+        font-family:'futurabt-medium', sans-serif;
+        font-size: 32px;
+        color: #000000;
+        text-align: center;
+        padding-top: 40px;
+      }
+
+    }
+
+    // Contact flex
+    .contact-flex {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+      // List contacts
+      ul {
+
+        // Itens list contact
+        li{
+          display:flex;
+          //padding-top: 20px;
+          //padding-left: 50px;
+          justify-content: center;
+          margin-top: -100px;
+
+          // Icon itens contacts
+          i{
+          font-size: 32px;
+          font-weight: bold;
+          color: #000000;
+          text-align: left;
+          display: inline;
+          }
+
+          // Text itens contacts
+          h2 {
+          font-family: 'futurabt-medium', arial;
+          font-size: 35px;
+          color: #000000;
+          padding-left:10px;
+          text-align: center;
+          }
+        }
+      }
+    }
+
+    // Content text contact
+    .text-contact-flex{
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+
+      // Text contact
+      h3{
+        font-family: 'futurabt-medium', sans-serif;
+        font-size: 32px;
+        color: $main-color-white;
+        //text-transform: uppercase;
+      }
+    }
+
+    // Content move app
+    .moveup-contact{
+      display: flex;
+      justify-content:flex-end;
+      padding-bottom: 30px;
+      padding-right: 50px;
+      width: 100%;
+
+      // Href Move up to Home
+      a{
+        display: flex;
+        justify-content:flex-end;
+        color: $main-color-white;
+        text-decoration: none;
+        transition: all ease .5s;
+
+        // Icon button move up to Home
+        i{
+          display: flex;
+          justify-content:center;
+          border: 2px solid $main-color-white;
+          border-radius: 30px;
+          width: 60px;
+          height: 60px;
+          padding-top: 10px;
+          font-size: 30px;
+        }
+      }
+
+      // Hover button up to Home
+      :hover {
+        color: $main-color-orange;
+        border-color: $main-color-white;
+        border-radius: 30px;
+        background-color: $main-color-white;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 2560px) {
+
+  // HEADER
+  .header-action {
+    min-height: 1100px;
+  }
+
+  .header-action .content-flex-home .content-video {
+    width: 60%;
+    height: 600px;
+    margin-top: 50px;
+  }
+
+  .header-action .content-flex-home .text-home h3 {
+    font-size: 60px;
+  }
+
+  .header-action .content-flex-home .content-logo {
+    margin-top: 50px;
+  }
+
+  // CONTACT
+  .contact .content-full-flex-contact .title-flex-contact h2 {
+    font-size: 30px;
+  }
+
+}

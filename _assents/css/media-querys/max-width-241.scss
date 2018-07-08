@@ -1,0 +1,226 @@
+// Smatphone 320 Iphone 5
+@media screen and (max-width: 241px) {
+
+// HEADER
+.menu-nav .content-flex-nav {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+
+
+
+.header-action .content-flex-home {
+  margin-top: 50px;
+}
+
+.header-action .content-flex-home .col-2flex .text-home h1 {
+  margin-top: 40px;
+}
+
+.menu-nav {
+  display: none;
+}
+.header-action {
+    min-height: 560px;
+}
+
+.header-action .contet-logo-home img {
+    padding-top: 200px;
+}
+
+.header-action .content-flex-home .col-2flex .text-home h3 {
+    font-size: 20px;
+}
+
+// SERVICES
+.service .content-full-flex-service-title {
+    display: none;
+}
+
+.service .content-full-flex-service-content .content-location .text-title-local h2 {
+    font-size: 20px;
+}
+
+.service .content-full-flex-service-content {
+    flex-direction: column;
+}
+
+.service .content-full-flex-service-content .content-location {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.service .content-full-flex-service-content .content-location .img-aviao {
+    padding-top: 60px;
+}
+
+.service .content-full-flex-service-content .content-destination .text-title-service h2 {
+    font-size: 20px;
+
+}
+
+.service .content-full-flex-service-content .content-destination .buscamos {
+    margin-top: -30px;
+}
+
+.transport .content-full-flex-transport-content .picture-transport .text-title-transport h2 {
+
+    font-size: 16px;
+
+}
+
+.transport .content-full-flex-transport-content .picture-transport .car {
+    height: 100%;
+    padding-top: 30px;
+    margin-bottom: -80px;
+}
+
+.transport .content-full-flex-transport-content .content-list-transport .title-empty-transport h2 {
+    font-size: 16px;
+}
+
+.service .content-full-flex-service-content .content-destination {
+    width: 100%;
+    padding-bottom: 40px;
+
+}
+
+.service .content-full-flex-service-content .content-location h2 {
+    font-size: 10px;
+}
+
+.service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 40%;
+    height: 20%;
+    margin-top: 80px;
+}
+
+.service .content-full-flex-service-content .content-destination .levamos img {
+    width: 40%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+.service .content-full-flex-service-content .content-location {
+    min-height: 200px;
+}
+
+.service .content-full-flex-service-content .content-destination {
+    //width: 100%;
+    min-height: 200px;
+ }
+
+ .transport .content-full-flex-transport-content .picture-transport {
+    min-height: 180px;
+}
+
+
+// TRANSPORT
+.transport .content-full-flex-transport-content {
+    flex-direction: column;
+}
+
+.transport .content-full-flex-transport-content .content-list-transport {
+    width: 100%;
+}
+
+.transport .content-full-flex-transport {
+    min-height: 50px;
+}
+
+.transport .content-full-flex-transport-content .content-list-transport .list-transport {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.transport .content-full-flex-transport-content .content-list-transport {
+
+    min-height: 180px;
+}
+
+.transport .content-full-flex-transport-content .picture-transport {
+    width: 100%;
+}
+
+.transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 22%;
+    width: 90%;
+    margin-top: 0px;
+}
+
+.transport .content-full-flex-transport-content .picture-transport {
+    padding-right: 0px;
+}
+
+.transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 45px;
+}
+
+.reserve .content-full-flex-reserve .reserve-flex {
+  display:none;
+}
+
+.reserve .content-full-flex-reserve #form-main {
+    margin-top: 20px;
+}
+
+.reserve .content-full-flex-reserve #form-main #form-div h1 {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.reserve .content-full-flex-reserve .title-flex-reserve h2 {
+    font-size: 16px;
+}
+
+.depoiment .content-full-flex-depoiment .content-title-depoiment h2 {
+    font-size: 16px;
+}
+
+.depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment {
+    margin-top: -100px;
+}
+
+.contact .content-full-flex-contact .title-flex-contact h2 {
+    font-size: 16px;
+}
+
+.depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+   margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+// RESERVE
+.reserve .content-full-flex-reserve .reserve-flex ul li .logos-reserve {
+    height: 15%;
+}
+
+.reserve .content-full-flex-reserve #form-main #form-div h1 {
+    font-size: 20px;
+}
+
+
+footer .content-full-flex-footer .left-footer h3 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+footer .content-full-flex-footer .right-footer {
+display: none;
+}
+
+.contact .content-full-flex-contact .text-contact-msm-flex h3 {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.contact .content-full-flex-contact .contact-flex ul li h2 {
+  font-size: 12px;
+}
+}

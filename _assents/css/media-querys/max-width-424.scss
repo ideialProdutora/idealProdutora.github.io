@@ -1,0 +1,145 @@
+// Smatphone Iphone Plus
+@media screen and (max-width: 424px){
+
+  // HEADER
+  .header-action .contet-logo-home img {
+    padding-top: 160px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 120px;
+   }
+
+.header-action .content-flex-home .col-2flex {
+    min-height: 10px;
+}
+
+.header-action .content-flex-home .col-2flex .text-home h3 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+ .header-action {
+    min-height: 600px;
+  }
+
+  .header-action .content-move {
+    margin-top: 100px;
+  }
+
+  .header-action .content-flex-home .text-home .icon-move {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 42%;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 42%;
+  }
+
+  .service .content-full-flex-service-title .text-title-local h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service h2 {
+    font-size: 30px;
+  }
+
+  .transport .content-full-flex-transport .text-title-transport h2 {
+    font-size: 30px;
+  }
+
+  .transport .content-full-flex-transport .title-empty-transport h2 {
+    font-size: 30px;
+  }
+
+  .reserve .content-full-flex-reserve .title-flex-reserve h2 {
+    font-size: 30px;
+  }
+
+  .reserve .content-full-flex-reserve .reserve-flex ul li .logos-reserve {
+    height: 30%;
+  }
+
+  .reserve .content-full-flex-reserve .reserve-flex ul li .plus {
+    margin-top: 20px;
+    height: 15%;
+  }
+
+  .depoiment .content-full-flex-depoiment .content-title-depoiment h2 {
+    font-size: 30px;
+  }
+
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment {
+    margin-top: -160px;
+  }
+
+  .contact .content-full-flex-contact .title-flex-contact h2 {
+    font-size: 30px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex ul li h2 {
+    font-size: 20px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex ul li i {
+      font-size: 25px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex {
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+}
+   // TRANSPORT
+   .transport .content-full-flex-transport-content .picture-transport .car img {
+     height: 25%;
+     width: 90%;
+     margin-top: 100px;
+     margin-bottom: 100px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    font-size: 30px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 120px;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li {
+    margin-left: 0px;
+  }
+
+  // footer
+  footer .content-full-flex-footer .right-footer h3 {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  .reserve .content-full-flex-reserve #form-main {
+    margin-top: -50px;
+
+  }
+
+}

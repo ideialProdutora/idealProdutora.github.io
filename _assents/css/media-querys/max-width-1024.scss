@@ -1,0 +1,16 @@
+// Desktop and Tablets landcaspe
+@media screen and (max-width: 1024px) {
+
+  // HEADER
+  .header-action .content-flex-home {
+    margin-top: 80px;
+  }
+
+  .header-action .content-flex-home .content-video iframe {
+    height: 60%;
+  }
+
+  .contact {
+    margin-top: -200px;
+  }
+}

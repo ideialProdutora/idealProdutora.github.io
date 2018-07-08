@@ -1,0 +1,61 @@
+// Smatphone Iphone 6
+@media screen and (max-width: 384px){
+
+  // HEADER
+  .header-action .content-flex-home {
+    margin-top: 50px;
+  }
+  .header-action .content-move {
+    margin-top: 60px;
+  }
+  .header-action {
+    min-height: 700px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 260px;
+  }
+
+  // SERVICES
+
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 14px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 50%;
+    height: 20%;
+    margin-top: 80px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 50%;
+    height: 20%;
+    margin-top: 30px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 20%;
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 100px;
+  }
+
+  footer .content-full-flex-footer .right-footer img {
+  margin-top: 0px;
+  }
+
+  footer .content-full-flex-footer .right-footer h3 {
+
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  footer .content-full-flex-footer .right-footer {
+    padding-right: 0px;
+  }
+
+}

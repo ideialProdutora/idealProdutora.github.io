@@ -1,0 +1,53 @@
+// Smatphone Nexus
+@media screen and (max-width: 411px){
+
+  // HEADER
+
+  .header-action {
+    min-height: 700px;
+  }
+  .header-action .contet-logo-home img {
+    padding-top: 300px;
+  }
+
+  // SERVICES
+
+
+  .service .content-full-flex-service-title .text-title-local h2 {
+    font-size: 16px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service h2 {
+    font-size: 16px;
+  }
+
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 16px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 45%;
+    height: 20%;
+    margin-top: 80px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 45%;
+    height: 20%;
+    margin-top: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos {
+    margin-top: 0px;
+  }
+
+
+}

@@ -1,0 +1,26 @@
+// Iphone plus
+@media screen and (max-width: 736px){
+
+  // HEADER
+  .header-action {
+    min-height: 870px;
+  }
+  .header-action .contet-logo-home img {
+    padding-top: 50px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 32%;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 32%;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+}

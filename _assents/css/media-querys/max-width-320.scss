@@ -1,0 +1,116 @@
+// Smatphone 320 Iphone 5
+@media screen and (max-width: 320px) {
+
+  .header-action {
+    min-height: 600px;
+  }
+  .header-action .contet-logo-home img {
+    padding-top: 260px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 10px;
+  }
+
+  .header-action .content-flex-home .text-home h3 {
+    margin-top: 20px;
+  }
+
+  .header-action .content-flex-home .col-2flex {
+    min-height: 0px;
+  }
+
+
+  // SERVICE
+
+  .service .content-full-flex-service-content .content-location .text-title-local {
+    min-height: 80px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .text-title-service {
+    min-height: 80px;
+  }
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 12px;
+  }
+
+  .service .content-full-flex-service-content .content-location .img-aviao {
+    padding-top: 100px;
+  }
+
+  .service .content-full-flex-service-content .content-location .img-aviao img {
+    margin-top: 10px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos {
+    margin-top: 80px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 32%;
+    height: 10%;
+    margin-top: 0px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 32%;
+    height: 10%;
+    margin-top: 30px;
+  }
+
+  .service .content-full-flex-service-title .text-title-local h2 {
+    font-size: 14px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service h2 {
+    font-size: 14px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    font-size: 25px;
+  }
+
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 18%;
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .transport .content-full-flex-transport-content .picture-transport .text-title-transport {
+    min-height: 80px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 80px;
+  }
+
+  .list-transport .title-empty-transport {
+    min-height: 80px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport {
+    margin-top: 20px;
+}
+
+
+  //RESERVE
+  .reserve .content-full-flex-reserve .reserve-flex ul li .logos-reserve {
+    height: 20%;
+  }
+
+  .reserve .content-full-flex-reserve .reserve-flex ul li .plus {
+    margin-top: 15px;
+    height: 10%;
+  }
+
+
+}

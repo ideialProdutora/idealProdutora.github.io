@@ -1,0 +1,194 @@
+// TABLETS
+@media screen and (max-width: 812px) {
+
+  // HEADER
+  // Menu Fixo
+  .menu-nav {
+
+    // Content Flex Menu
+    .content-flex-nav{
+
+      // Select
+      .select-header select {
+      padding-left: 20px;
+      padding-right: 25px;
+      margin-right: 60px;
+      }
+    }
+  }
+
+  .header-action {
+    min-height: 600px;
+  }
+
+  .header-action .content-move {
+    margin-top: 350px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 30px;
+  }
+
+  .header-action .content-flex-home .col-2flex {
+
+    min-height: 120px;
+    width: 100%;
+
+  }
+
+  .header-action .content-flex-home .text-home h3 {
+    font-size: 30px;
+  }
+
+  // Home
+  .header-action {
+
+    // Content Flex Home
+    .content-flex-home {
+        flex-direction: column;
+        margin-top: 100px;
+
+
+        }
+    }
+
+    .header-action .content-flex-home .text-home .icon-move {
+      padding-bottom: 20px;
+    }
+
+    .header-action .content-flex-home .text-home {
+      margin-left: 0px;
+
+    }
+
+    // SERVISE
+
+    .service .content-full-flex-service-content {
+      min-height: 500px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos {
+      flex-direction: column-reverse;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos img {
+      width: 30%;
+      height:25%;
+      margin-top: 80px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos h2 {
+      padding-top: 20px;
+      margin-left: 0px;
+
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos {
+      flex-direction: column;
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos img {
+      width: 30%;
+      height: 25%;
+      margin-top: 30px;
+    }
+
+    .service .content-full-flex-service-content .content-location .img-aviao img {
+      width: 60%;
+      margin-top: 100px;
+      height: 30%;
+    }
+
+
+
+    .service .content-full-flex-service-content .content-destination .levamos h2 {
+      padding-top: 20px;
+      margin-right: 0px;
+
+    }
+
+    .service .content-full-flex-service-content .content-destination .buscamos h2 {
+      font-size: 30px;
+    }
+
+    .service .content-full-flex-service-content .content-destination .levamos h2 {
+      font-size: 30px;
+    }
+
+    .service .content-full-flex-service-title .text-title-local h2 {
+      font-size: 30px;
+    }
+
+    .service .content-full-flex-service-title .text-title-service h2 {
+      font-size: 30px;
+    }
+
+    .service .content-full-flex-service-content .content-location h2 {
+      font-size: 30px;
+    }
+
+
+    // TRANSPORT
+    .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+      margin-left: 120px;
+      font-size: 30px;
+    }
+
+    .transport .content-full-flex-transport-content .picture-transport .car img {
+      height: 55%;
+      width: 90%;
+      margin-top: 80px;
+    }
+
+
+    .transport .content-full-flex-transport .text-title-transport h2 {
+      font-size: 30px;
+    }
+
+    .transport .content-full-flex-transport-content .picture-transport .car {
+      height: 100%;
+    }
+
+    .transport .content-full-flex-transport-content .picture-transport {
+    padding-right: 0px;
+    }
+
+
+
+    .transport .content-full-flex-transport .title-empty-transport h2 {
+      font-size: 30px;
+    }
+
+    // RESERVE
+    .reserve .content-full-flex-reserve .reserve-flex ul li .plus {
+      height: 20%;
+    }
+
+    .reserve .content-full-flex-reserve .title-flex-reserve h2 {
+    font-size: 30px;
+    }
+
+    .reserve .content-full-flex-reserve #form-main {
+      width: 60%;
+    }
+
+    // DEPOIMENT
+    .depoiment .content-full-flex-depoiment .content-title-depoiment h2 {
+      font-size: 30px;
+    }
+
+    .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+      margin-top: 110px;
+    }
+
+    // CONCTACT
+    .contact .content-full-flex-contact .title-flex-contact h2 {
+      font-size: 30px;
+    }
+
+
+    .contact .content-full-flex-contact .contact-flex {
+      margin-top: 0px;
+    }
+
+}

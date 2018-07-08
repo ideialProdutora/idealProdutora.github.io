@@ -1,0 +1,41 @@
+// Smatphone Ipad mimi
+@media screen and (max-width: 768px){
+
+  // HEADER
+  .header-action .content-move {
+    margin-top: 140px;
+  }
+  .header-action {
+    min-height: 1050px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 280px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 125px;
+  }
+
+
+  // SERVICES
+  .header-action .contet-logo-home img {
+    padding-top: 150px;
+  }
+
+  // RESERVE
+  .reserve .content-full-flex-reserve #form-main {
+    width: 60%;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+    margin-top: 110px;
+  }
+
+  // CONTACT
+  .contact .content-full-flex-contact .contact-flex {
+    margin-top: 0px;
+  }
+
+}

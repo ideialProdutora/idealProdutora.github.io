@@ -1,0 +1,148 @@
+// Smartphone 480px
+@media screen and (max-width: 480px){
+
+  // HEADER
+
+  .header-action {
+    min-height: 850px;
+  }
+
+  .header-action .contet-logo-home {
+    margin-top: 0px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 220px;
+  }
+  .header-action .content-flex-home .col-2flex .text-home h3 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-title {
+    flex-direction: column;
+  }
+
+  .service .content-full-flex-service-title .text-title-local {
+    width: 100%;
+    height: 100px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service {
+    width: 100%;
+    height: 100px;
+  }
+
+  .service .content-full-flex-service-content {
+    flex-direction: column;
+  }
+
+  .service .content-full-flex-service-content .content-location {
+    width: 100%;
+    min-height: 400px;
+
+  }
+  .service .content-full-flex-service-content .content-destination {
+    width: 100%;
+    min-height: 450px;
+      padding-bottom: 50px;
+  }
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    margin-top: -80px;
+  }
+
+  .service .content-full-flex-service-content .content-location .img-aviao img {
+    margin-top: 100px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos {
+    padding-bottom: 0px;
+    margin-top: 130px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport {
+    flex-direction: column;
+  }
+  .transport .content-full-flex-transport .text-title-transport {
+    width: 100%;
+    height: 100px;
+  }
+
+  .service .content-full-flex-service-content .content-location .text-aviao {
+    margin-bottom: 100px;
+  }
+
+  .service .content-full-flex-service-content .content-location .img-aviao img {
+    width: 50%;
+  }
+
+  .transport .content-full-flex-transport .title-empty-transport {
+    width: 100%;
+    height: 100px;
+  }
+
+  .transport .content-full-flex-transport-content {
+    flex-direction: column;
+  }
+
+  .transport .content-full-flex-transport-content .picture-transport {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport {
+
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 140px;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li {
+    flex-direction: column;
+  }
+
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .depoiment .content-full-flex-depoiment-content .content-depoiment {
+    min-height: 550px;
+  }
+
+  // CONTACT
+  footer .content-full-flex-footer .right-footer h3 {
+    margin-top: 18px;
+    margin-right: 10px;
+    font-size:10px;
+  }
+
+  .contact .content-full-flex-contact .contact-flex {
+    padding-top: 0px;
+
+  }
+
+}

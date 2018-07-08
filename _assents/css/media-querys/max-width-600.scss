@@ -1,0 +1,76 @@
+// Smartphne 568
+@media screen and (max-width: 600px){
+
+  // HEADER
+  .header-action {
+    min-height: 980px;
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 200px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-title .text-title-local h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service h2 {
+    font-size: 20px;
+  }
+
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content {
+    min-height: 400px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    margin-top: 50px;
+    width: 30%;
+  }
+
+  .service .content-full-flex-service-content .content-location .img-aviao img {
+    margin-top: 80px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 30%;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 45%;
+    width: 90%;
+    margin-top: 80px;
+  }
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 50px;
+  }
+
+  // RESERVE
+  .reserve .content-full-flex-reserve #form-main {
+    width: 60%;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+    margin-top: 90px;
+  }
+
+  // CONTACT
+  .contact .content-full-flex-contact .contact-flex ul li h2 {
+    font-size: 25px;
+  }
+
+}

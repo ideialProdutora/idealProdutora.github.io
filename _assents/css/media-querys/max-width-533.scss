@@ -1,0 +1,64 @@
+// Smartphne 568
+@media screen and (max-width: 533px){
+
+  // HEADER
+
+  .header-action {
+    min-height: 600px;
+  }
+  .header-action .contet-logo-home img {
+    padding-top: 50px;
+  }
+
+  .header-action .content-flex-home .col-2flex .text-home h3 {
+    font-size: 30px;
+  }
+
+  // SERVICES
+  .service .content-full-flex-service-title .text-title-local h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-title .text-title-service h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 30px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport .text-title-transport h2 {
+    font-size: 30px;
+  }
+  .transport .content-full-flex-transport .title-empty-transport h2 {
+    font-size: 30px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 45px;
+  }
+
+  // RESERVE
+  .reserve .content-full-flex-reserve .title-flex-reserve h2 {
+    font-size: 30px;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment .content-title-depoiment h2 {
+    font-size: 30px;
+  }
+
+  // CONTACT
+  .contact .content-full-flex-contact .title-flex-contact h2 {
+    font-size: 30px;
+  }
+}

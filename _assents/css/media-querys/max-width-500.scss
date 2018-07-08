@@ -1,0 +1,169 @@
+// SMARTYPHONES
+@media screen and (max-width: 500px) {
+
+  // Icon menu
+  .hamburger{
+    top: 20px;
+
+  }
+  // Menu
+  .menu-nav {
+
+    margin-top: -18px;
+
+    // Content Menu Flex
+    .content-flex-nav {
+
+      // Logo Menu
+      .logo-header {
+        width: 30%;
+        img{
+          margin-left: -20px;
+        }
+      }
+
+      // Select Menu
+      .select-header select {
+        padding-left: 12px;
+        padding-right: 25px;
+        margin-right: 0px;
+        font-size: 12px;
+      }
+
+      // Name Profile Menu
+      .logo-header .name-menu h2 {
+        display: none;
+      }
+    }
+  }
+
+  .header-action .contet-logo-home img {
+    padding-top: 160px;
+  }
+
+  .header-action .content-flex-home {
+    margin-top: 50px;
+  }
+
+  .header-action .content-flex-home .col-2flex .text-home h3 {
+    font-size: 20px;
+  }
+
+
+  .header-action {
+    min-height: 750px;
+
+  }
+
+  .header-action .contet-logo-home {
+    margin-top: -100px;
+    }
+  .menu li{
+    height: 15%;
+  }
+  .menu li a span {
+    font-size: 20px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 35%;
+    width: 90%;
+    margin-top: 90px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 30px;
+  }
+
+  // RESERVE
+  .reserve .content-full-flex-reserve .reserve-flex ul li .logos-reserve {
+    height: 40%;
+  }
+
+  .reserve .content-full-flex-reserve .reserve-flex ul li .plus {
+    margin-top: 30px;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li img {
+    width: 120px;
+  }
+
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+    margin-top: 60px;
+  }
+
+
+
+  // Contact
+  .contact {
+    min-height:inherit;
+
+    .content-full-flex-contact {
+
+      .contact-flex {
+        width: 90%;
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        min-height: inherit;
+
+        ul li{
+          padding-left: 0px;
+          justify-content: center;
+
+          i{
+            font-size: inherit;
+          }
+
+          h2{
+            font-size: inherit;
+          }
+        }
+      }
+
+      .text-contact-flex{
+
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+
+         h3{
+          font-size: inherit;
+         }
+      }
+
+      #form-main{
+        width: 80%;
+      }
+      .button-contact{
+        width: 80%;
+        padding-top: 10px;
+      }
+
+      .moveup-contact{
+        display: none;
+      }
+    }
+  }
+
+  footer .content-full-flex-footer {
+    .left-footer {
+      width: 70%;
+
+      h3{
+        font-size: inherit;
+        margin-top: 18px;
+      }
+    }
+
+    .right-footer {
+      padding-top: 30px;
+    }
+
+  }
+
+
+}

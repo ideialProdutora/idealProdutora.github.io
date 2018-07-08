@@ -1,0 +1,45 @@
+// Smartphone 667
+@media screen and (max-width: 667px){
+
+  // SERVICES
+  .service .content-full-flex-service-content .content-destination .buscamos img {
+    width: 35%;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos img {
+    width: 35%;
+  }
+
+  .service .content-full-flex-service-content .content-location h2 {
+    font-size: 30px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .buscamos h2 {
+    font-size: 25px;
+  }
+
+  .service .content-full-flex-service-content .content-location .text-aviao h2 {
+    font-size: 16px;
+  }
+
+  .service .content-full-flex-service-content .content-destination .levamos h2 {
+    font-size: 25px;
+  }
+
+  // TRANSPORT
+  .transport .content-full-flex-transport-content .picture-transport .car img {
+    height: 50%;
+    width: 90%;
+    margin-top: 80px;
+  }
+
+  .transport .content-full-flex-transport-content .content-list-transport .list-transport li {
+    margin-left: 80px;
+  }
+
+  // DEPOIMENT
+  .depoiment .content-full-flex-depoiment-content .content-depoiment .list-depoiment li p {
+    margin-top: 90px;
+  }
+
+}
