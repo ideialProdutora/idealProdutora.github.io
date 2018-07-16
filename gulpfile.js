@@ -81,4 +81,4 @@ gulp.task('js', function(){
 });
 
 // Task default
-gulp.task('default', ['serve', 'jade', 'watch', 'js', 'fonts', 'imagen' , 'file']);
+gulp.task('default', ['serve', 'jade', 'watch', 'js', 'fonts', 'imagen' , 'video']);
