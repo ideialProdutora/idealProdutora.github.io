@@ -69,12 +69,16 @@
       width: 80%;
       height: 800px;
       margin-top: 50px;
-      iframe{
+      // iframe{
+      //   display: flex;
+      //   margin-left: auto;
+      //   margin-right: auto;
+      //   width: 100%;
+      //   height:80%;
+      // }
+      .video-conf{
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
         width: 100%;
-        height:80%;
       }
     }
   }

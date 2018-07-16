@@ -3,11 +3,18 @@
 
   // HEADER
   .header-action .content-flex-home {
-    margin-top: 80px;
+    margin-top: 10px;
   }
 
-  .header-action .content-flex-home .content-video iframe {
-    height: 60%;
+  .header-action {
+    min-height: 1200px;
+  }
+
+  .header-action .content-flex-home .content-video .video-conf {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      margin-top: -200px;
   }
 
   .contact {

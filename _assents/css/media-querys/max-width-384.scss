@@ -3,7 +3,7 @@
 
   // HEADER
   .header-action .content-flex-home {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .header-action .content-move {
     margin-top: 60px;
@@ -11,6 +11,14 @@
   .header-action {
     min-height: 700px;
   }
+
+  .header-action .content-flex-home .content-logo h1 {
+    font-size: 18px;
+  }
+
+  .header-action .content-flex-home .content-logo h2 {
+    font-size: 18px;
+}
 
   .header-action .contet-logo-home img {
     padding-top: 260px;
