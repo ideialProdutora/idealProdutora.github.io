@@ -16,9 +16,9 @@ gulp.task('fonts', function() {
 });
 
 // Task File
-gulp.task('file', function() {
-    gulp.src('_assents/file/*.*')
-    .pipe(gulp.dest('docs/file'));
+gulp.task('video', function() {
+    gulp.src('_assents/video/*.*')
+    .pipe(gulp.dest('docs/video'));
 });
 
 // Task imagen
