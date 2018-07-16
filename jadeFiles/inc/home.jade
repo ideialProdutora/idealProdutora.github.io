@@ -11,9 +11,12 @@ div.header.header-action#header
       //iframe(src="https://www.youtube.com/embed/MaUiATtaHOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
       //iframe(src="https://www.youtube.com/embed/MaUiATtaHOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
       //iframe(src="https://www.youtube.com/embed/MaUiATtaHOo?autoplay=1;showinfo=0;controls=0;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
-      video.video-conf#myVideo( controls autoplay loop)
+      video.video-conf(id="autoplay" muted playsinline loop)
         source(src="video/videoIdeal.mp4" type="video/mp4")
         source(src="video/videoIdeal.ogg" type="video/ogg")
         P Your browser does not support the video tag.
+    
+    script document.getElementById('autoplay').play();
+        
       
   
