@@ -1,78 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <!-- content head-->
-  <head> 
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ideal Produtora</title>
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="origin">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="msapplication-navbutton-color" content="#ffffff">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="img/icon_page.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="img/touch-icon-ipad-retina.png">
-    <link rel="manifest" href="manifest.json">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap and Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="icon_page.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
-  <body> </body>
+  <body>
+    <div style="background-image: url('img/video-bg.jpg')" class="main">
+      <!-- video background-->
+      <!-- replace URLs with your video content URL-->
+      <video id="video-background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="video/videoIdeal.mp4" type="video/mp4">
+        <source src="video/videoIdeal.ogg" type="video/ogg">
+      </video>
+      <nav id="fixedTopNav" class="navbar navbar-fixed-top main-navigation" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+        <div class="containerykk">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="ion-drag"></span>
+            </button>
+            <div class="navbar-brand" itemscope="" itemtype="https://schema.org/Organization">
+              <span itemprop="name" class="sr-only"></span>
+                <a itemprop="url" href="index.html">
+                  <img src="img/logo_nova_idea2l.png"></a>
+            </div>
+          </div>
+
+        </nav>
+      <div class="overlay"></div>
+      <div class="container">
+        <!-- <p class="social" ><img src="img/logo_nova_idea2l.png"></p> -->
+        <!-- <h1 class="cursive"><img src="img/logo_nova_ideal.png"></h1> -->
+
+        <h2 class="sub">Agência de Projetos Audiovisuais (APA) </h2>
+
+        <h3 class="mailing-list">Produtora de Documentários</h3>
+        <div class="mailing-list">
+          <!-- <h3 class="mailing-list-heading">Produtora de Documentários</h3> -->
+          <div class="row">
+            <i aria-hidden="true" class="fa fa-envelope-o icon"> </i>
+              <h2>idealprodutora@gmail.com     </h2>
+            <!-- <form class="form-inline">
+              <div class="form-group">
+                <label for="email" class="sr-only"></label>
+                <input type="email" placeholder="jane.doe@example.com" id="email" class="form-control transparent">
+              </div>
+              <button class="btn btn-danger">subscribe</button>
+            </form> -->
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy;2018 Ideal Produtora</p>
+            </div>
+            <div class="col-md-6">
+              <!-- <p class="credit">Code by <a href="">Kleiton Azevedo</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/front.js"></script>
+
+  </body>
 </html>
-<body>       
-  <!-- Home-->
-  <div id="header" class="header header-action">
-    <div class="content-flex-home">
-      <div class="content-logo"><img src="img/logo_nova_ideal.jpg">
-        <h1>Agência de Projetos Audiovisuais (APA)</h1>
-        <h2>Produtora de Documentários</h2>
-      </div>
-      <div class="content-video">
-        <!--iframe(src="https://www.youtube.com/embed/MaUiATtaHOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)-->
-        <!--iframe(src="https://www.youtube.com/embed/MaUiATtaHOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>-->
-        <!--iframe(src="https://www.youtube.com/embed/MaUiATtaHOo?autoplay=1;showinfo=0;controls=0;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)-->
-        <video id="autoplay" muted playsinline loop class="video-conf">
-          <source src="video/videoIdeal.mp4" type="video/mp4">
-          <source src="video/videoIdeal.ogg" type="video/ogg">
-          <P>Your browser does not support the video tag.</P>
-        </video>
-      </div>
-      <script>document.getElementById('autoplay').play();</script>
-    </div>
-  </div>
-  <!-- Contact-->
-  <div id="contact-li" class="contact">
-    <div class="content-full-flex-contact">
-      <div class="contact-flex"> 
-        <ul>
-          <li><i aria-hidden="true" class="fa fa-envelope-o"> </i>
-            <h2>idealprodutora@gmail.com     </h2>
-          </li>
-        </ul>
-      </div>
-      <!--div.moveup-contact
-      a(href="#header")
-        i(class="fa fa-angle-up" aria-hidden="true")
-      -->
-    </div>
-  </div>
-  <footer>
-    <div class="content-full-flex-footer">
-      <div class="left-footer"><a href="#"><img src="img/icon_page.png"></a>
-        <h3>Copyright <i class="fa fa-copyright" aria-hidden="true"></i></h3>
-      </div>
-      <div class="right-footer">
-        <h3>Developer by <a href="https://kleitonads.github.io/profile/index.html" target="_blank"> Kleiton Azevedo </a></h3>
-        <script src="js/jquery.js" type="text/javascript"></script>
-        <script src="js/functions.js" type="text/javascript"></script>
-        <!--script(src="js/contact.js", type="text/javascript")-->
-        
-        
-        
-        
-        
-        
-      </div>
-    </div>
-  </footer>
-</body>

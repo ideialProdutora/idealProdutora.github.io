@@ -1,0 +1,29 @@
+/* your styles go here */
+
+.main-navigation {
+    /* border-bottom-color: rgba(255,255,255,.26); */
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    background-color: #0808084a;
+    height: 130px;
+
+}
+
+.main .container {
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+}
+
+.main .mailing-list {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: left;
+    display: inline;
+}
