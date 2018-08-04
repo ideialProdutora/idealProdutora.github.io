@@ -12,7 +12,7 @@
 .main .container {
     position: relative;
     z-index: 2;
-   margin-top: 60px; 
+   margin-top: 60px;
 }
 
 .main .mailing-list {
@@ -34,4 +34,7 @@
 
 .email-footer i{
   font-size: 16px;
+}
+.img-center{
+  margin-top: 80px;
 }
