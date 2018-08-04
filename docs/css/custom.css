@@ -23,6 +23,7 @@
 
 .main .sub {
     font-size: 22px;
+    text-transform: uppercase;
 }
 
 .icon {
