@@ -18,6 +18,11 @@
 .main .mailing-list {
     margin-top: 10px;
     text-align: center;
+    font-size: 18px;
+}
+
+.main .sub {
+    font-size: 22px;
 }
 
 .icon {
