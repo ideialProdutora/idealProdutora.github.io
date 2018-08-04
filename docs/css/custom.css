@@ -23,7 +23,7 @@
 
 .main .sub {
     font-size: 22px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .icon {
@@ -36,6 +36,7 @@
 
 .email-footer{
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 .email-footer i{
