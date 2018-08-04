@@ -12,7 +12,7 @@
 .main .container {
     position: relative;
     z-index: 2;
-    /* margin-top: 200px; */
+   margin-top: 20px; 
 }
 
 .main .mailing-list {
